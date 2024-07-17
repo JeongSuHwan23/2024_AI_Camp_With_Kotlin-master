@@ -1,5 +1,5 @@
 package com.example.demo.dto
 
-class SaveMyModelRequest (
+class SaveMyModelRequest(
         var name: String,
 )

@@ -41,7 +41,7 @@ class Mycontroller(
     val myModel: MyModel = myModelService.findById(id)
             ?: throw NotFoundException()
 
-    myModel.name =request.name
+    myModel.name = request.name
 
     return myModelService.save(myModel)
   }

@@ -1,5 +1,5 @@
 package com.example.demo.dto
 
-class UpdateMyModelRequest (
+class UpdateMyModelRequest(
         var name: String,
 )

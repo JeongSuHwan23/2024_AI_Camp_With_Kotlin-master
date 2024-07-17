@@ -12,5 +12,5 @@ class MyModelService(
 
   fun findAll(): List<MyModel> = myModelRepository.findAll()
 
-  fun findById(id : Long): MyModel? = myModelRepository.findById(id).getOrNull()
+  fun findById(id: Long): MyModel? = myModelRepository.findById(id).getOrNull()
 }
